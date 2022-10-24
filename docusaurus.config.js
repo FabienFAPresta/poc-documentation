@@ -6,8 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Documentation Squad Smb Edition",
-  tagline: "Online documentation for the smb edition squad by PrestaShop",
+  title: "SMB Edition Squad",
+  tagline:
+    "This is the online documentation for the SMB Edition squad by PrestaShop",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/poc-documentation/",
   onBrokenLinks: "throw",
@@ -37,14 +38,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/FabienFAPresta/poc-documentation/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/FabienFAPresta/poc-documentation/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -57,7 +58,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Smb Edition",
+        title: "SMB Edition",
         logo: {
           alt: "PrestaShop Logo",
           src: "img/preston.png",
@@ -67,7 +68,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Documentation",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -92,34 +93,38 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "📚 Blog",
+                to: "/blog",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "💬 Slack channel",
+                href: "https://prestashopcorp.slack.com/archives/C03NRJR37PE",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "📑 Notion page",
+                href: "https://www.notion.so/prestashopcorp/Squad-Edition-9649dd76d341481ebe3324640e885644",
               },
             ],
           },
           {
-            title: "More",
+            title: "SMB Edition repositories",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "🐧 Module",
+                href: "https://github.com/PrestaShopCorp/smb_edition",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "🏗 Builder",
+                href: "https://github.com/PrestaShopCorp/smb_edition_builder",
+              },
+              {
+                label: "🌍 Hosting Api",
+                href: "https://github.com/PrestaShopCorp/smb_edition_hosting_api",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PrestaShop.`,
       },
       prism: {
         theme: lightCodeTheme,
