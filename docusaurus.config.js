@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Documentation Smb Edition",
+  title: "Documentation Squad Smb Edition",
   tagline: "Online documentation for the smb edition squad by PrestaShop",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/poc-documentation/",
