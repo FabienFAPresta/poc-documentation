@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpoc_documentation=self.webpackChunkpoc_documentation||[]).push([[989],{848:o=>{o.exports=JSON.parse('{"permalink":"/poc-documentation/fr/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

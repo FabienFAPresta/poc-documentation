@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpoc_documentation=self.webpackChunkpoc_documentation||[]).push([[785],{2114:o=>{o.exports=JSON.parse('{"label":"hola","permalink":"/poc-documentation/blog/tags/hola","allTagsPath":"/poc-documentation/blog/tags","count":1}')}}]);

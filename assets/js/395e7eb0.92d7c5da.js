@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpoc_documentation=self.webpackChunkpoc_documentation||[]).push([[637],{6988:o=>{o.exports=JSON.parse('{"label":"docusaurus","permalink":"/poc-documentation/blog/tags/docusaurus","allTagsPath":"/poc-documentation/blog/tags","count":4}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpoc_documentation=self.webpackChunkpoc_documentation||[]).push([[771],{6426:o=>{o.exports=JSON.parse('{"permalink":"/poc-documentation/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
