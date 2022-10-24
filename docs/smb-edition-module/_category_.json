@@ -1,8 +1,8 @@
 {
-  "label": "Smb Edition - Module",
+  "label": "SMB Edition - Module",
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Learn every concept included by the module. Start by the installation and dive into every concept."
   }
 }
